@@ -130,7 +130,6 @@
             dtp_NgayHetHan.Name = "dtp_NgayHetHan";
             dtp_NgayHetHan.Size = new Size(226, 29);
             dtp_NgayHetHan.TabIndex = 11;
-            dtp_NgayHetHan.ValueChanged += dtp_NgayHetHan_ValueChanged;
             // 
             // tb_Origin
             // 
@@ -171,7 +170,6 @@
             tb_MaSP.Name = "tb_MaSP";
             tb_MaSP.Size = new Size(226, 29);
             tb_MaSP.TabIndex = 6;
-            tb_MaSP.TextChanged += tb_MaSP_TextChanged;
             // 
             // label6
             // 
@@ -259,7 +257,6 @@
             bt_SelectMaxPrice.TabIndex = 1;
             bt_SelectMaxPrice.Text = "1 SP có đơn giá cao nhất";
             bt_SelectMaxPrice.UseVisualStyleBackColor = true;
-            bt_SelectMaxPrice.Click += bt__Click;
             // 
             // dgv_SanPham1
             // 
